@@ -1,0 +1,849 @@
+{
+  "commit": "044e12a45dc9cc312cec50ee606dfc98afe5adc2",
+  "repo": "https://github.com/patch-gg/pixelfx",
+  "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+  "noticeAttribution": [
+    "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+    "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+    "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+  ],
+  "generatedBy": "tools/vendor-pixelfx.mjs",
+  "generatedAt": "2026-11-11T04:50:33",
+  "frameSize": {
+    "w": 427,
+    "h": 240,
+    "maxEffectW": 372,
+    "maxEffectH": 264
+  },
+  "counts": {
+    "total": 51,
+    "pixelfx": 51,
+    "inHouse": 0,
+    "coreFiles": 15,
+    "coreDirCopied": true
+  },
+  "sourceStats": {
+    "pixelfx": 51,
+    "inHouse": 0,
+    "total": 51,
+    "inHouseRatio": 0
+  },
+  "effects": [
+    {
+      "id": "env-rain",
+      "category": "weather",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/weather/rain.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The rain recipe (depth layers of two-tone streaks, far drops that end in the air, near ones that )",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/weather/rain.js"
+    },
+    {
+      "id": "env-snow",
+      "category": "weather",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/weather/snow.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The snow recipe (depth layers falling at their own speeds with a sway, a gusty wind, flakes that )",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/weather/snow.js"
+    },
+    {
+      "id": "env-fog",
+      "category": "weather",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/weather/fog.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The banded fog (a baked tiling noise, warped, cut into a few translucent tones with Bayer edges, )",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/weather/fog.js"
+    },
+    {
+      "id": "env-aurora",
+      "category": "weather",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/weather/aurora.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The banded light (posterized steps from a white-hot core out to deep color, fine strands running )",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/weather/aurora.js"
+    },
+    {
+      "id": "env-sakura",
+      "category": "weather",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/weather/cherry-blossoms.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // Things that flutter down (a fall timed to land as their time in the air runs out, a flip by squas)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/weather/cherry-blossoms.js"
+    },
+    {
+      "id": "env-leaves",
+      "category": "weather",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/weather/falling-leaves.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The falling leaf (a pendulum swing that speeds through the bottom of each arc, a tilt that follow)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/weather/falling-leaves.js"
+    },
+    {
+      "id": "env-windstreak",
+      "category": "transitions",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/transitions/slash-wipe.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The cut's tapered smear (white at the rim, cooling down the ramp with age), the dotted trace it l)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/transitions/slash-wipe.js"
+    },
+    {
+      "id": "env-duskveil",
+      "category": "transitions",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/transitions/pixel-dissolve.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The glints and the twinkling pixel dust follow Sprite Fusion's open-source sparkle)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/transitions/pixel-dissolve.js"
+    },
+    {
+      "id": "env-ripple",
+      "category": "water",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/water/ripples.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { fit, cycle, clamp, smooth, ease, TAU, WHITE } from \"../../core/index.js\";)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/water/ripples.js"
+    },
+    {
+      "id": "env-dewdrop",
+      "category": "water",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/water/drip.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The bead swelling at the tip and the falling drop's tail follow Sprite Fusion's open-source blood)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/water/drip.js"
+    },
+    {
+      "id": "env-firefly",
+      "category": "critters",
+      "triggerScene": "env",
+      "layer": "back",
+      "srcPath": "fx/critters/wisp.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The flame tail, puffs and embers are adapted from Sprite Fusion's open-source fire)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/critters/wisp.js"
+    },
+    {
+      "id": "atk-arrow",
+      "category": "projectiles",
+      "triggerScene": "attack-fire",
+      "layer": "front",
+      "srcPath": "fx/projectiles/arrow.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { fit, rand, sparkle, mix, hex, TAU, WHITE } from \"../../core/index.js\";)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/projectiles/arrow.js"
+    },
+    {
+      "id": "atk-ice-lance",
+      "category": "ice",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/ice/ice-lance.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The projectile recipe (a hot head, a trail that thins behind it, motes shed along the way, light )",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/ice/ice-lance.js"
+    },
+    {
+      "id": "atk-energy-bolt",
+      "category": "projectiles",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/projectiles/plasma-shot.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The layered head, rim rays and trail light follow Sprite Fusion's open-source energy bolt and orb)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/projectiles/plasma-shot.js"
+    },
+    {
+      "id": "atk-fireball",
+      "category": "fire",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/fire/fireball.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The flame-puff, smoke and spark recipe is adapted from Sprite Fusion's open-source explosion)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/fire/fireball.js"
+    },
+    {
+      "id": "atk-flame-tongue",
+      "category": "fire",
+      "triggerScene": "attack-fire",
+      "layer": "front",
+      "srcPath": "fx/fire/fire-breath.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The flame-puff, smoke and spark recipe is adapted from Sprite Fusion's open-source explosion)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/fire/fire-breath.js"
+    },
+    {
+      "id": "atk-ember-burst",
+      "category": "fire",
+      "triggerScene": "hit",
+      "layer": "front",
+      "srcPath": "fx/fire/meteor.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The impact's particle recipe (fire puffs that cool into smoke, sparks, embers, burning brands tha)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/fire/meteor.js"
+    },
+    {
+      "id": "atk-sword-slash",
+      "category": "melee",
+      "triggerScene": "attack-fire",
+      "layer": "front",
+      "srcPath": "fx/melee/sword-slash.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The crescent, echo, trail, glint and spark recipe is adapted from Sprite Fusion's open-source sla)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/melee/sword-slash.js"
+    },
+    {
+      "id": "atk-melee-cleave",
+      "category": "melee",
+      "triggerScene": "attack-fire",
+      "layer": "front",
+      "srcPath": "fx/melee/heavy-cleave.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The crescent and its cooling ramp are adapted from Sprite Fusion's open-source slash)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/melee/heavy-cleave.js"
+    },
+    {
+      "id": "atk-spear-thrust",
+      "category": "melee",
+      "triggerScene": "attack-fire",
+      "layer": "front",
+      "srcPath": "fx/melee/thrust.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The speed lines are adapted from Sprite Fusion's open-source dash and the ray star from his spark)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/melee/thrust.js"
+    },
+    {
+      "id": "atk-lightning",
+      "category": "lightning",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/lightning/lightning-strike.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The stepped leader, the stroke flicker, the cooling channel and the scorch follow Sprite Fusion's)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/lightning/lightning-strike.js"
+    },
+    {
+      "id": "atk-thunder-chain",
+      "category": "lightning",
+      "triggerScene": "hit",
+      "layer": "front",
+      "srcPath": "fx/lightning/chain-lightning.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The hop timing, the link shapes that re-strike every other frame, the glowing nodes and the crawl)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/lightning/chain-lightning.js"
+    },
+    {
+      "id": "atk-static-arc",
+      "category": "lightning",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/lightning/spark-arc.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The arc's re-struck bowed shape, its halo-body-core inking, its flicker and the nodes where it ro)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/lightning/spark-arc.js"
+    },
+    {
+      "id": "atk-frost-nova",
+      "category": "ice",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/ice/frost-nova.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { Particles, Bits, Lights, P, B, Rng, fit, crystal, band, flare, clamp, smooth, ease, rand, T)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/ice/frost-nova.js"
+    },
+    {
+      "id": "atk-ice-shard",
+      "category": "ice",
+      "triggerScene": "hit",
+      "layer": "front",
+      "srcPath": "fx/ice/ice-shatter.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The crack-and-burst recipe (cracks walking out from the point of impact, a white frame, the ice f)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/ice/ice-shatter.js"
+    },
+    {
+      "id": "atk-freeze-ring",
+      "category": "ice",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/ice/freeze.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The crack-and-burst recipe (cracks walking out from a point, a white frame, the ice flung apart a)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/ice/freeze.js"
+    },
+    {
+      "id": "atk-explosion",
+      "category": "explosions",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/explosions/small-explosion.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The particle recipe (fire puffs that cool into smoke, sparks, embers, burning brands, grit, rocks)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/explosions/small-explosion.js"
+    },
+    {
+      "id": "atk-shockwave",
+      "category": "explosions",
+      "triggerScene": "skill-fire",
+      "layer": "back",
+      "srcPath": "fx/explosions/plasma-explosion.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The release (flash, rings, flare, light) and the arcs are adapted from Sprite Fusion's open-sourc)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/explosions/plasma-explosion.js"
+    },
+    {
+      "id": "atk-laser-beam",
+      "category": "scifi",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/scifi/laser-grid.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The beam's build (the ramp across it, a hot core, light along it) is adapted from Sprite Fusion's)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/scifi/laser-grid.js"
+    },
+    {
+      "id": "atk-plasma-ring",
+      "category": "scifi",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/scifi/force-field.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The hit recipe (a tracer from the right, a flash and a ripple over a hex shell mapped by longitud)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/scifi/force-field.js"
+    },
+    {
+      "id": "act-slash",
+      "category": "moves",
+      "triggerScene": "timing-data",
+      "layer": "back",
+      "srcPath": "fx/moves/sword-combo.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { chain, shiftKeys, shiftHits, READY } from \"../../core/index.js\";)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/moves/sword-combo.js"
+    },
+    {
+      "id": "act-cast",
+      "category": "moves",
+      "triggerScene": "timing-data",
+      "layer": "back",
+      "srcPath": "fx/moves/fireball-throw.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { chain, READY, PAL } from \"../../core/index.js\";)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/moves/fireball-throw.js"
+    },
+    {
+      "id": "act-dash",
+      "category": "moves",
+      "triggerScene": "timing-data",
+      "layer": "back",
+      "srcPath": "fx/moves/dash-strike.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { chain, READY } from \"../../core/index.js\";)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/moves/dash-strike.js"
+    },
+    {
+      "id": "atk-spawn-flare",
+      "category": "spawn",
+      "triggerScene": "spawn",
+      "layer": "front",
+      "srcPath": "fx/spawn/spawn-portal.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The streaks pulled in, the rings and lights at the burst and the collapse pop are adapted from Sp)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/spawn/spawn-portal.js"
+    },
+    {
+      "id": "atk-death-dissolve",
+      "category": "spawn",
+      "triggerScene": "death",
+      "layer": "front",
+      "srcPath": "fx/spawn/disintegrate.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The flickering outline, the white silhouette flash and the body's own pixels flying off as bits o)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/spawn/disintegrate.js"
+    },
+    {
+      "id": "atk-arcane-circle",
+      "category": "arcane",
+      "triggerScene": "skill-fire",
+      "layer": "back",
+      "srcPath": "fx/arcane/rune-circle.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The floor glow and the specks rising off it follow Sprite Fusion's open-source mana heal)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/arcane/rune-circle.js"
+    },
+    {
+      "id": "atk-holy-lance",
+      "category": "holy",
+      "triggerScene": "skill-fire",
+      "layer": "front",
+      "srcPath": "fx/holy/holy-pillar.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { Particles, Lights, P, Rng, fit, sparkle, clamp, smooth, seg, lerp, ease, rand, TAU, WHITE })",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/holy/holy-pillar.js"
+    },
+    {
+      "id": "atk-shadow-claw",
+      "category": "melee",
+      "triggerScene": "attack-fire",
+      "layer": "front",
+      "srcPath": "fx/melee/claw-swipe.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The shaded smear, its light and the dotted trace follow Sprite Fusion's open-source slash)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/melee/claw-swipe.js"
+    },
+    {
+      "id": "atk-barrage-trail",
+      "category": "projectiles",
+      "triggerScene": "attack-fire",
+      "layer": "front",
+      "srcPath": "fx/projectiles/bullet-tracer.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The spark and streak recipes are adapted from Sprite Fusion's open-source impact ricochet)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/projectiles/bullet-tracer.js"
+    },
+    {
+      "id": "hit-spark",
+      "category": "impacts",
+      "triggerScene": "hit",
+      "layer": "front",
+      "srcPath": "fx/impacts/hit-spark.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The two-tone spark spray and the light pop are adapted from Sprite Fusion's open-source impact)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/impacts/hit-spark.js"
+    },
+    {
+      "id": "hit-impact-ring",
+      "category": "impacts",
+      "triggerScene": "hit",
+      "layer": "front",
+      "srcPath": "fx/impacts/impact-frame.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { Rng, fit, clamp, ease, TAU } from \"../../core/index.js\";)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/impacts/impact-frame.js"
+    },
+    {
+      "id": "hit-crit-star",
+      "category": "impacts",
+      "triggerScene": "hit",
+      "layer": "front",
+      "srcPath": "fx/impacts/crit-hit.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The star, its key frames and the spark spray are adapted from Sprite Fusion's open-source impact)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/impacts/crit-hit.js"
+    },
+    {
+      "id": "aux-hurt-flash",
+      "category": "impacts",
+      "triggerScene": "hurt",
+      "layer": "front",
+      "srcPath": "fx/impacts/hit-flash.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { Lights, Rng, fit, clamp, ease, TAU, WHITE, mix, luma, red, green, blue, rgb, READY } from \")",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/impacts/hit-flash.js"
+    },
+    {
+      "id": "aux-buff-aura",
+      "category": "status",
+      "triggerScene": "buff",
+      "layer": "back",
+      "srcPath": "fx/status/haste.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The banded after-images, the dotted speed lines with bright heads and the kicked-up dust are)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/status/haste.js"
+    },
+    {
+      "id": "aux-shield-break",
+      "category": "impacts",
+      "triggerScene": "hurt",
+      "layer": "front",
+      "srcPath": "fx/impacts/shield-block.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // Mapping a lattice onto a dome by longitude and latitude, the ripple measured over its surface, th)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/impacts/shield-block.js"
+    },
+    {
+      "id": "aux-heal-light",
+      "category": "holy",
+      "triggerScene": "hurt",
+      "layer": "front",
+      "srcPath": "fx/holy/heal.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { Particles, Lights, P, Rng, fit, sparkle, clamp, smooth, seg, lerp, ease, TAU, WHITE, mix, l)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/holy/heal.js"
+    },
+    {
+      "id": "aux-bless-ring",
+      "category": "holy",
+      "triggerScene": "levelup",
+      "layer": "front",
+      "srcPath": "fx/holy/blessing.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { fit, sparkle, cycle, rng, clamp, smooth, lerp, TAU, WHITE, mix, luma } from \"../../core/ind)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/holy/blessing.js"
+    },
+    {
+      "id": "aux-shadow-trail",
+      "category": "shadow",
+      "triggerScene": "menu",
+      "layer": "back",
+      "srcPath": "fx/shadow/shadow-tendrils.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: import { Particles, P, Rng, fit, clamp, smooth, ease, noise, TAU, WHITE, mix } from \"../../core/inde)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/shadow/shadow-tendrils.js"
+    },
+    {
+      "id": "aux-dust-step",
+      "category": "nature",
+      "triggerScene": "menu",
+      "layer": "back",
+      "srcPath": "fx/nature/spore-burst.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The lumpy cloud (puffs that drift off their push, rise, swell from small to large and thin out, l)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/nature/spore-burst.js"
+    },
+    {
+      "id": "aux-pickup-flash",
+      "category": "pickups",
+      "triggerScene": "pickup",
+      "layer": "front",
+      "srcPath": "fx/pickups/collect-burst.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The pop (a white flash, a ring snapping out, star sparks with short trails) follows Sprite Fusion)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/pickups/collect-burst.js"
+    },
+    {
+      "id": "aux-gem-sparkle",
+      "category": "pickups",
+      "triggerScene": "pickup",
+      "layer": "back",
+      "srcPath": "fx/pickups/gem-spin.js",
+      "source": "pixelfx",
+      "repoLicense": "MIT (LICENSE: Copyright (c) 2026 Patch / Copyright (c) 2026 Hugo Duprez; README: \"MIT, code and effects. Use them in anything, commercial included.\")",
+      "fileHeader": "inherits repo MIT (无逐文件头声明；首行: // The hover, floor shadow and twinkle glints follow Sprite Fusion's open-source pickup and sparkle)",
+      "noticeAttribution": [
+        "Hugo Duprez. src/core/sim.js and the effects that say so at the top of their file adapt Sprite Fusion's open-source pixel art VFX (https://www.spritefusion.com/pixel-art-vfx), Copyright (c) 2026 Hugo Duprez, MIT License.",
+        "Hollow Crown. src/core/act.js adapts how Hollow Crown plays its skills (poses on 12 fps steps, hit-stops, the springy straw target), from https://github.com/rehan-remade/hollow-crown, Copyright (c) 2026 rehan-remade, MIT License.",
+        "Patch Pixel. The font in gallery/fonts is Patch's own and is not covered by this repository's MIT license. See gallery/fonts/NOTICE.md. → 本项目禁止复制该字体。"
+      ],
+      "upstreamUrl": "https://github.com/patch-gg/pixelfx/blob/044e12a45dc9cc312cec50ee606dfc98afe5adc2/src/fx/pickups/gem-spin.js"
+    }
+  ]
+}

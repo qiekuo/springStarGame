@@ -1,0 +1,104 @@
+{
+ "frames": [
+  {
+   "filename": "sakura-walk-0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 147,
+    "h": 196
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 147,
+    "h": 196
+   },
+   "sourceSize": {
+    "w": 147,
+    "h": 196
+   }
+  },
+  {
+   "filename": "sakura-walk-1",
+   "frame": {
+    "x": 147,
+    "y": 0,
+    "w": 147,
+    "h": 196
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 147,
+    "h": 196
+   },
+   "sourceSize": {
+    "w": 147,
+    "h": 196
+   }
+  },
+  {
+   "filename": "sakura-walk-2",
+   "frame": {
+    "x": 294,
+    "y": 0,
+    "w": 147,
+    "h": 196
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 147,
+    "h": 196
+   },
+   "sourceSize": {
+    "w": 147,
+    "h": 196
+   }
+  },
+  {
+   "filename": "sakura-walk-3",
+   "frame": {
+    "x": 441,
+    "y": 0,
+    "w": 147,
+    "h": 196
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 147,
+    "h": 196
+   },
+   "sourceSize": {
+    "w": 147,
+    "h": 196
+   }
+  }
+ ],
+ "meta": {
+  "app": "walk-atlas.mjs",
+  "image": "sakura-walk.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 588,
+   "h": 196
+  },
+  "scale": "1",
+  "footPad": 4,
+  "cell": {
+   "w": 147,
+   "h": 196
+  },
+  "note": "水平按 alpha 质心居中，脚底统一贴 cellH-PAD_BOTTOM；未缩放"
+ }
+}
