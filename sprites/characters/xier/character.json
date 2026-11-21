@@ -1,0 +1,228 @@
+{
+  "schema": "pixel-character/v1",
+  "id": "xier",
+  "name": "希尔",
+  "projectId": "seed",
+  "status": "same-contract-derived",
+  "source": {
+    "portrait": "portrait/portrait.png",
+    "method": "existing-transparent-portrait + reference-aligned deterministic pose/effect derivation"
+  },
+  "frameSize": {
+    "width": 128,
+    "height": 128
+  },
+  "orientation": "right",
+  "mirrorLeft": true,
+  "anchor": {
+    "x": 64,
+    "y": 120
+  },
+  "actions": {
+    "idle": {
+      "file": "sheets/idle.png",
+      "framesDir": "frames/idle",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "walk": {
+      "file": "sheets/walk.png",
+      "framesDir": "frames/walk",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 8,
+      "fps": 10,
+      "loop": true,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "run": {
+      "file": "sheets/run.png",
+      "framesDir": "frames/run",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "jump": {
+      "file": "sheets/jump.png",
+      "framesDir": "frames/jump",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 4,
+      "fps": 10,
+      "loop": false,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "fall": {
+      "file": "sheets/fall.png",
+      "framesDir": "frames/fall",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 2,
+      "fps": 10,
+      "loop": false,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1
+      ]
+    },
+    "attack": {
+      "file": "sheets/attack.png",
+      "framesDir": "frames/attack",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "cast": {
+      "file": "sheets/cast.png",
+      "framesDir": "frames/cast",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 6,
+      "fps": 12,
+      "loop": false,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "hurt": {
+      "file": "sheets/hurt.png",
+      "framesDir": "frames/hurt",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 3,
+      "fps": 10,
+      "loop": false,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2
+      ]
+    },
+    "death": {
+      "file": "sheets/death.png",
+      "framesDir": "frames/death",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 8,
+      "fps": 8,
+      "loop": false,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "dash": {
+      "file": "sheets/dash.png",
+      "framesDir": "frames/dash",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frames": 4,
+      "fps": 12,
+      "loop": false,
+      "anchor": {
+        "x": 64,
+        "y": 120
+      },
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}
